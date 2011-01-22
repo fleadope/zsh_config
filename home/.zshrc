@@ -28,6 +28,3 @@ fi
 
 if [[ -s $rvm_path/scripts/rvm ]] ; then source $rvm_path/scripts/rvm ; fi
 
-if [ -f ~/.bash_aliases ]; then
-  . ~/.bash_aliases
-fi
