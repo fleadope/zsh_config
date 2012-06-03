@@ -16,7 +16,7 @@ export CASE_SENSITIVE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git dirpersist)
+plugins=(git dirpersist gem heroku rails rake rails3 ruby rvm ss-agent vundle)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -26,5 +26,6 @@ if [ -f $machine_config ]; then
   source $machine_config
 fi
 
+export rvm_path=~/.rvm
 if [[ -s $rvm_path/scripts/rvm ]] ; then source $rvm_path/scripts/rvm ; fi
 
